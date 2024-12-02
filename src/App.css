@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* App.css */
+
+/* Center content vertically and horizontally */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding: 20px;
+  border: 1px solid #e4caca;
+  border-radius: 10px;
+  min-width: 400px;
+  margin: 50px;
+  background-color: #e3d5d5;
+}
+
+/* Title styles */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style input file button */
+.input-file {
+  margin-bottom: 20px;
+}
+
+.image-v {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+/* Style image previews */
+.image-preview {
+  border: 2px solid #cf8484;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  max-width: 400px;
+  height: 400px;
+}
+
+.image-preview img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style download button */
+.btn-download {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-download:hover {
+  background-color: #218838;
+}
+
+/* Style remove background button */
+.btn-remove-bg {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-remove-bg:hover {
+  background-color: #0056b3;
+}
